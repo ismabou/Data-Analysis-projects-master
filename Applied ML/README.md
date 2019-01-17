@@ -1,12 +1,5 @@
-## Deadline
 
-Wednesday, November 22, 2017, 11:59PM
 
-## Important notes
-
-- When you push your Notebook to GitHub, all the cells must already have been evaluated.
-- Don't forget to add a textual description of your thought process and of any assumptions you've made.
-- Please write all your comments in English, and use meaningful variable names in your code.
 
 ## Question 1: Propensity score matching
 
