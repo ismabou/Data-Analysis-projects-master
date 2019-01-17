@@ -79,9 +79,8 @@ We decided to go for a Matrix factorization with Alterate Least Squares to fill 
 
 The two graphs were implemented in D3.js , these are force graphs, where the nodes have color codes depending on their category, an edge represents a possible recommendation from an item to another. If we double-click on them, the item Amazon page pops in the web browser. One can tick the nodes to isolate them from the rest of the graph and see in a clearer way its degree.
 
-- First graph : http://htmlpreview.github.io/?https://github.com/ismabou/Data-Analysis-projects-master/Reviews_based_recommender_system/recommender_system/firstGraph.html
-- Second graph : http://htmlpreview.github.io/?https://github.com/ismabou/Data-Analysis-projects-master/Reviews_based_recommender_system/recommender_system/secondGraph.html
-
+- First graph : http://htmlpreview.github.io/?https://github.com/ismabou/Data-Analysis-projects-master/blob/master/Reviews_based_recommender_system/recommender_system/firstGraph.html
+- Second graph : http://htmlpreview.github.io/?https://github.com/ismabou/Data-Analysis-projects-master/blob/master/Reviews_based_recommender_system/recommender_system/secondGraph.html
 
 	
 
