@@ -46,8 +46,7 @@ The schema and the content are below :
 	item : ID of the item
 	rating : rating of the product given the user
 
-# A list of internal milestones up until project milestone 2
-
+# Upline of explanatory analysis
 The action items concern the data preparation and cleaning. The milestones are the following :
  - Download the first dataset
  - Use a JSON parser to build a dataset with the following schema :
@@ -73,24 +72,19 @@ After downloading and explorating our data, we can outline the next steps of our
 - Filter the entries of the Ratings dataset to the items features in the metadata sample (i.e top 100'000 salesRanked samples for each category)
 
 - We want to evaluate the similarity between both recommandations. That can be done regarding the average number of common recommendations per object. Meaning, for each item in the dataset, we compute the list returned by the rating based recommendations, we compute the list in accordance with the salesRank and we yield the average  number of common entries for each case.
-# Milestone 3
+# Chosen Algorithm
 We decided to go for a Matrix factorization with Alterate Least Squares to fill the missing ratings (implemented in the file ALS.py), the we created a graph representing relationships between items that we compared to the one based on the joint sales.
 
 # About the visualization
 
 The two graphs were implemented in D3.js , these are force graphs, where the nodes have color codes depending on their category, an edge represents a possible recommendation from an item to another. If we double-click on them, the item Amazon page pops in the web browser. One can tick the nodes to isolate them from the rest of the graph and see in a clearer way its degree.
 
-- First graph : http://htmlpreview.github.io/?https://github.com/ismabou/ADA-Homeworks-2017/blob/master/ADA_2017_project-master/Milestone_3/firstGraph.html
-- Second graph : http://htmlpreview.github.io/?https://github.com/ismabou/ADA-Homeworks-2017/blob/master/ADA_2017_project-master/Milestone_3/secondGraph.html
+- First graph : http://htmlpreview.github.io/?https://github.com/ismabou/Data-Analysis-projects-master/Reviews_based_recommender_system/recommender_system/firstGraph.html
+- Second graph : http://htmlpreview.github.io/?https://github.com/ismabou/Data-Analysis-projects-master/Reviews_based_recommender_system/recommender_system/secondGraph.html
 
 
 	
 
-# Distribution of the work
-
--Ismail Bouanani : Graph visualization and analysis, data cleaning/pre-processing 
-
--Nacer Zaim Wadghiri : Implementation of the ALS algorithm (+parts related to that, in the notebook and the report)
 
 
 
