@@ -20,6 +20,6 @@ For the visualization part, install [Folium](https://github.com/python-visualiza
 These will be used as an overlay on the Folium maps.
 
 
-## Interactive maps
+## Notebook with interactive maps
 
 http://nbviewer.jupyter.org/github/ismabou/Data-Analysis-projects-master/blob/master/Interactive%20Visualization/Interactive_visualization.ipynb
